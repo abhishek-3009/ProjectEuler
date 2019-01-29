@@ -13,7 +13,6 @@ public class Solution3 {
 		System.out.println("Enter Number To Find Largest Prime Factor");
 		double num=scanner.nextDouble();
 		scanner.close();
-		
 		int largestPrimeFactor=0;
 		//finding factors as arrayList from factors method
 		ArrayList<Integer> list= factors(num);
