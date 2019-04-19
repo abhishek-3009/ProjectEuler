@@ -1,5 +1,7 @@
 package org.apex.projecteuler;
 
+//Find largest Palindrome from multiplication of 3 digit numbers
+
 public class Solution4 {
 
 	public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class Solution4 {
 		for(int i=100;i<1000;i++) {
 			for(int j=i+1;j<1000;j++) {
 				num=i*j;
+				// check if number is palindrome
 				if(isPalindrome(String.valueOf(num))==true && num > largestPalindrome) {
 					largestPalindrome= num;
 				}
